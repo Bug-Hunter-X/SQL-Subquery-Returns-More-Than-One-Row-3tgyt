@@ -1,0 +1,1 @@
+The SQL query uses a subquery that returns more than one row, but the outer query expects only one row from the subquery. This error occurs when using functions such as `IN`, `=` or EXISTS, which expect single-value comparisons, but are provided with a result set with multiple values. 
